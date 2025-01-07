@@ -1,0 +1,22 @@
+{
+	"id": "EIR001",
+	"name": {
+		"en": "Smart Coding House",
+		"ko": "스마트 코딩 하우스"
+	},
+	"category": "board",
+	"platform": ["win32", "darwin"],
+	"icon" : "smartCodingHouse.png",
+	"module": "smartCodingHouse.js",
+	"url": "http://www.sciencetime.co.kr/",
+	"email": "sciencetime2022@gmail.com",
+    "selectPort": true,
+    "reconnect": true,
+	"hardware": {
+		"type": "serial",
+		"control": "slave",
+		"duration": 50,
+		"vendor": "",
+		"baudRate": 38400 
+	}
+}
